@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
-  res.send('Backend is connected');
+  res.send('Backend is successfully connected');
 });
 
 app.listen(port, () =>
